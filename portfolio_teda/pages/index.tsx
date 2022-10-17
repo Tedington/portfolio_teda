@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 
 const Home: NextPage = () => {
   return (
-    <div className='bg-[rgb(36,36,36)] text-white h-screen'>
+    <div className='bg-[rgb(36,36,36)] text-white h-screen sticky z-0 overflow-scroll snap-y snap-mandatory '>
       <Head>
         <title>Teda Portfolio</title>
       </Head>
