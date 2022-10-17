@@ -52,7 +52,7 @@ function Header({}: Props) {
           scale: 1,
         }}
         transition={{
-          duration: 1,
+          duration: 1.6,
         }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
