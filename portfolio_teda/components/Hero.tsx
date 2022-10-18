@@ -8,9 +8,9 @@ type Props = {};
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Fetching metadata of the admin . . .",
+      "Fetching metadata . . .",
       "Hi, The name's Teda!",
-      "Guy_Who_Loves_Computers&owls  :)",
+      "Guy-Who-Loves-owls:)",
       "<butLovesToCodeMore/>",
     ],
     loop: true,
@@ -25,7 +25,7 @@ export default function Hero({}: Props) {
         alt="howl"
       />
 
-      <div>
+      <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           {" "}
           Computer Scientist
