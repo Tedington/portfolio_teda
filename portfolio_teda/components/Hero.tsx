@@ -10,7 +10,7 @@ export default function Hero({}: Props) {
       "Fetching metadata . . .",
       "Hi, The name's Teda!",
       "Guy-Who-Loves-owls:)",
-      "<butLovesToCodeMore/>",
+      "< butLovesToCodeMore />",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -26,7 +26,6 @@ export default function Hero({}: Props) {
 
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
-          {" "}
           Computer Scientist
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
