@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import { Z_FULL_FLUSH } from "zlib";
 import BackgroundCircles from "./BackgroundCircles";
 type Props = {};
 
